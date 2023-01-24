@@ -1,6 +1,7 @@
-#ifndef __SORT__
-#define __SORT__
+#ifndef SORT_H
+#define SORT_H
 #include <stdlib.h>
+#include <stdio.h>
 
 
 /**
@@ -17,11 +18,11 @@ typedef struct listint_s
 	struct listint_s *next;
 } listint_t;
 
-
+/* printing helper functions */
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 
-
+/* sorting algorithms */
 void bubble_sort(int *array, size_t size);
 
 
