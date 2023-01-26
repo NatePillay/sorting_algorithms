@@ -1,8 +1,10 @@
 #ifndef SORT_H
 #define SORT_H
+
+
 #include <stdlib.h>
 #include <stdio.h>
-
+#include <unistd.h>
 
 /**
  *struct listint_s - Doubly linked list node
@@ -27,7 +29,6 @@ void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void swap_nodes(listint_t *a, listint_t *b);
 void selection_sort(int *array, size_t size);
-void swap(int *xp, int *yp)
 
 
 #endif /* __SORT__ */
