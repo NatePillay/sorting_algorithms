@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
- * swap_nodes - function to swap nodes
+ * swap_node - function to swap nodes
  * @node:pointer to node a
  * @list: pointer to list  b
  * Return: returns a pointer to a node
